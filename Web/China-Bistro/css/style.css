@@ -1,0 +1,492 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+}
+
+a {
+	text-decoration: none;
+}
+p {
+	margin: 0;
+}
+hr {
+	opacity: 1;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo {
+	margin: 10px 15px 10px 0;
+}
+#logo-button {
+	background: url('../images/restaurant-logo_large.png') center/contain no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	border-radius: 55%;
+    border-style: none;
+	box-shadow: 5px 5px 4px #5D8744;
+	transition: all 0.3s ease; 
+    outline: 0.1px solid #5D8744;
+}
+#logo-button:hover {
+    box-shadow: 5px 5px 1px #222;
+  }
+
+#logo-button:active {
+	box-shadow: none;
+	transform: translateY(5px) translateX(5px);
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+	font: bold 1.5em/.75 'Lora', serif;
+	color: #557c3e;
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand p { /* Kosher cert */
+	font-size: .7em;
+	color: #000;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+#navbar-toggler {
+	width: 47px;
+	margin-bottom: 20px;
+	padding: 0;
+	border: 1px solid #61122F;
+	box-shadow: none;
+}
+.navbar-toggler-icon {
+	width: 31px;
+	height: 33px;
+	--bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(97, 18, 47)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#nav-list {
+	margin-top: -10px;
+	height: fit-content;
+}
+#nav-list a {
+	color: #951C49;
+	font-size: 1.2em;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.4em;
+	height: fit-content;
+}
+#nav-list a p {
+	margin: 0;
+}
+.nav-item {
+	height: 100%;
+	white-space: nowrap;
+}
+
+#phone {
+	margin-top: 0px;
+}
+#phone a { /* Phone number */ 
+	padding: 0 8px;
+}
+#phone div { /* We Deliver */
+	font-size: 1.2em;
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+/* /HEADER */
+
+/* HOME: MAIN */
+#loader {
+	filter: none;
+}
+
+#phone-xs {
+	margin-top: 20px;
+}
+#phone-xs a {
+	padding: 5px 0;
+	background-color: #f6b319;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	color: #951C49;
+	font-size: 1.6em;
+}
+#phone-xs a span {
+	font-size: 1.2em;
+	margin: 0 5px 5px 0;
+}
+#phone-xs > span { /* We Deliver */
+	font-size: 14px;
+}
+
+.jumbotron {
+	background: url('../images/jumbotron_1200.jpg') no-repeat;
+	height: 675px;
+	margin: 30px auto;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+.card {
+	width: fit-content;
+	margin: 0 auto 15px;
+	border: 2px solid #3F0C1F;
+	border-radius: 0;
+	overflow: hidden;
+}
+.card:hover {
+	box-shadow: 0 1px 5px #cccccc;
+}
+.card-img {
+	border-radius: 0;
+	height: 250px;
+}
+.card-img-overlay {
+	padding: 0;
+}
+.card .card-footer {
+	border-radius: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #000;
+	opacity: .8;
+}
+
+#map-tile {
+	width: 100%;
+}
+/* /HOME: MAIN */
+
+/* FOOTER */
+footer {
+	margin-top: 30px;
+	padding: 35px 30px 30px;
+	background-color: #222;
+}
+
+footer div.row {
+	margin-bottom: 35px;
+}
+#hours, #adress {
+	line-height: 2;
+}
+#hours > span, #adress > span {
+	font-size: 1.3em;
+}
+#adress p {
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+/* /FOOTER */
+
+/* MENU CATEGORIES */
+#nav-list li.current { /* Header */
+	background: #E7E7E7;
+}
+
+/* Main */
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
+
+#categories-tiles .card-img {
+	width: 200px;
+	height: 200px;
+}
+#categories-tiles .card .card-footer {
+	font-size: 1.2em;
+}
+/* /MENU CATEGORIES */
+
+/* SINGLE CATEGORY */
+#category-tiles .card {
+	min-height: 170px;
+	width: 100%;
+	margin-bottom: 25px;
+	background: none;
+	border: none;
+	color: #fff;
+}
+
+#category-tiles .card-img-wrapper {
+	position: relative;
+	height: fit-content;
+	max-width: 250px;
+}
+#category-tiles .card-img {
+	max-width: 250px;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #3F0C1F;
+}
+#category-tiles .card-img-label {
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	padding: 0 25px;
+	background: #557c3e;
+}
+
+#category-tiles .card-body {
+	padding: 0 0.5rem 5px;
+}
+#category-tiles .card-text {
+	font-size: 0.9em;
+	font-style: italic;
+}
+#category-tiles .price {
+	position: absolute;
+	top: 155px;
+	left: 0;
+	margin: 0;
+	font-size: 1.1em;
+	text-align: end;
+}
+#category-tiles .price span {
+	font-size: .6em;
+}
+/* /SINGLE CATEGORY */
+
+/* MEDIA QUERIES */
+
+
+/********** Extra large devices only **********/
+@media (min-width: 1200px) {
+	.col-xl-5 {
+		flex: 0 0 auto;
+	    width: 40%;
+	}
+	.col-xl-7 {
+		flex: 0 0 auto;
+	    width: 60%;
+	}
+
+	#category-tiles .price {
+		top: 135px;
+	}
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* Header */
+	#logo-img {
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+	#collapsable-nav {
+		margin-top: -120px;
+	}
+
+	/* Main */
+	.jumbotron {
+		background: url('../images/jumbotron_992.jpg') no-repeat;
+		height: 558px;
+	}
+
+	#category-tiles .card {
+		min-height: 185px;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	/* Header */
+	#logo-img {
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+	#collapsable-nav {
+		margin-top: -65px;
+	}
+
+	/* Main */
+	.jumbotron {
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+	}
+
+	#category-tiles .card {
+		min-height: 180px;
+	}
+	#category-tiles .price {
+		top: 145px;
+	}
+}
+
+/********** Small & Extra small devices only **********/
+@media (max-width: 767px) {
+	/* Header */
+	#nav-list a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#nav-list a span {
+		margin-right: 5px;
+	}
+
+	/* Main */
+	.jumbotron {
+	    background: none;
+		height: auto;
+	}
+
+	.card .card-footer {
+		font-size: 4.5vw;
+	}
+
+	/* Footer */
+	footer section {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	footer section:last-child {
+		margin-bottom: 0;
+	}
+
+	/* Single category page */
+	#category-tiles .card {
+		align-items: center;
+	}
+
+	#category-tiles .card-img-wrapper {
+		width: fit-content;
+	}
+
+	#category-tiles .card-body {
+		text-align: center;
+	}
+	#category-tiles .price {
+		position: static;
+		margin: auto;
+		text-align: center;
+	}
+}
+
+@media (min-width: 479px) and (max-width: 767px) { /* Menu categories */
+	.col-xsm-6 {
+		flex: 0 0 auto;
+	    width: 50%;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 575px) {
+	/* Header */
+	.navbar-brand {
+		padding-top: 5px;
+		height: 80px;
+	}
+	.navbar-brand h1 { /* Restaurant name */
+		font-size: 5.9vw; /* 1vw = 1% of viewport width */
+	}
+	.navbar-brand p {
+		font-size: .6em;
+		margin: 12px 0;
+	}
+	.navbar-brand p img { /* Star-K */
+		height: 20px;
+	}
+
+	#navbar-toggler {
+		position: absolute;
+		right: 12px;
+		bottom: 10px;
+		margin-bottom: 0;
+		height: fit-content;
+		width: 38px;
+		margin-bottom: 10px;
+	}
+	.navbar-toggler-icon {
+		width: 26px;
+		height: 28px;
+	}
+
+	#nav-list a {
+		font-size: 3.4vw;
+	}
+
+	/* Main */
+	#phone-xs a {
+		font-size: 5.5vw;
+	}
+	#phone-xs >span {
+		font-size: 3.3vw;
+	}
+	.card .card-footer {
+		font-size: 5.3vw;
+	}
+}
+
+/********** Super extra small devices only **********/
+@media (max-width: 365px) {
+	/* Header */
+	.navbar-brand {
+		height: fit-content;
+	}
+	.navbar-brand p {
+		font-size: 3.6vw;
+	}
+	.navbar-brand p img { /* Star-K */
+		height: 15px;
+	}
+
+	#navbar-toggler {
+		width: 30px;
+	}
+	.navbar-toggler-icon {
+		width: 20px;
+		height: 23px;
+	}
+
+	/* Main */
+	.jumbotron {
+		margin: 20px auto;
+	}
+
+	.card-img {
+		width: 100%;
+		height: auto;
+	}
+	#map-tile {
+		max-height: 70vw;
+	}
+}

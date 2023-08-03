@@ -1,0 +1,270 @@
+/* GENERAL */
+html {
+	height: 100%;
+	font-family: Roboto, Sans-serif;
+}
+
+.container {
+	height: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 8px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+    cursor: pointer;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: normal;
+	color: #1D1D1D;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #1D1D1D;
+	margin: 0;
+}
+
+hr {
+	margin: 0;
+}
+
+/* HEADER */
+header {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.logo img {
+	width: 119.23px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav button {
+	box-sizing: border-box;
+	margin: 16px 0;
+	padding: 12px 20px;
+	background-color: white;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	font-size: 13px;
+	color: #1D1D1D;
+	cursor: pointer;
+}
+
+nav button:hover {
+	background-color: #F4F4F4;
+	border: 1px solid #DDDDDD;
+}
+
+nav button:active {
+	background-color: #E9E9E9;
+	border: 1px solid #CCCCCC;
+}
+
+nav a {
+	margin-left: 27px;
+}
+
+nav img {
+	width: 18.95px;
+}
+
+/* MAIN */
+input {
+	width: 100%;
+	margin: 56px auto;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #979797;
+}
+
+.rest-container {
+	margin-bottom: 52px;
+}
+
+.rest-card-group {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: 16px;
+	box-sizing: border-box;
+}
+
+.rest-card {
+	margin-bottom: 16px;
+	box-sizing: border-box;
+}
+
+.rest-card-active:active {
+	background-color: rgba(117, 117, 117, 0.2);
+}
+
+.rest-card img {
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.rest-card-text {
+	margin: 0;
+	padding: 16px 1px 20px;
+	font-size: 14px;
+	color: #1D1D1D;
+}
+
+.rest-card-text p:first-of-type {
+	color: #626262;
+}
+
+/* FOOTER */
+footer {
+	height: 100%;
+	box-sizing: border-box;
+	padding: 56px 0 28px;
+	background-color: #262626;
+}
+
+.white-logo {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.white-logo img {
+	width: 190.77px;
+}
+
+/* FOOTER-LINKS */
+.footer-links {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 32px 0 38px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.social {
+	padding: 0;
+}
+
+.lang {
+	display: flex;
+	align-items: center;
+	height: auto;
+	padding-right: 8px;
+	box-sizing: border-box;
+	border-radius: 2px;
+	background-color: #3B3B3B;
+}
+
+.lang img {
+	width: 15.72px;
+	margin: auto 16px;
+}
+
+.lang select {
+	width: 100%;
+	margin: 12px 0;
+	appearance: none;
+	background: url(F:/Кира/IT/Projects/UberEats/img/signs/arrow-back.png) 98% 50% no-repeat #3B3B3B;
+	background-size: 14px auto;
+	outline: none;
+	border: none;
+	font-size: 13px;
+	color: white;
+
+}
+
+.social-item {
+	margin: 32px 0 30px;
+	padding: 0;
+}
+
+.social-item p {
+	font-size: 16px;
+	color: white;
+	margin: 0 0 16px;
+}
+
+.social-item img {
+	width: 24px;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0;
+}
+
+.links a {
+	margin: 10px 0 13px;
+}
+
+
+/* FOOTER-DOWNOLOAD */
+.footer-downoload {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 40px auto;
+}
+
+.footer-downoload a:first-of-type {
+	margin-right: 40px;
+}
+
+.footer-downoload a img {
+	height: 40px;
+}
+
+/* FOOTER RIGHTS */
+.footer-rights {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 28px auto 0;
+}
+
+.footer-rights p {
+	font-size: 11px;
+	color: white;
+	margin: 12px 0;
+	text-align: center;
+}
+
+/* BUTTON UP */
+.btn-up {
+	position: fixed;
+	bottom: 4px;
+	right: 17.5px;
+	padding: 27.5px 32.4px;
+	border-radius: 2px;
+	background-color: #59BD5A;
+}
+
+.btn-up img {
+	width: 15.27px;
+}

@@ -1,0 +1,176 @@
+/* GENERAL STYLES */
+.The-problem, .PiedPiperCoin, .The-team {
+	width: 70%;
+	margin: 0 auto;
+	padding: 48px 0 92px;
+}
+
+a, h1, h2, h3, h4, p, small {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 72px;
+	color: white;
+	margin: auto;
+}
+
+h2 {
+	font-size: 64px;
+	color: #007765;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h3 {
+	font-size: 48px;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #007765;
+	margin: 12px auto 0;
+}
+
+p {
+	font-size: 32px;
+}
+
+footer p {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+}
+
+small {
+	font-size: 18px;
+	font-style: italic;
+}
+
+figcaption {
+	text-align: center;
+}
+
+/* HEADER */
+
+header {
+	position:-webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: #007765;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	height: 45px;
+
+}
+
+/* NAVIGATION*/
+nav {
+	display: inline-block;
+	margin: 28px 0;
+	font-size: 24px;
+	color: white;
+}
+
+a {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/* MAIN SECTORY */
+.container {
+	width: 100%;
+	background-color: #eeeeee;
+}
+
+.image {
+	display: flex;
+	align-items: center;
+    background-size: contain;
+}
+
+#image-1 {
+	height: 403px;
+    background-image: url(F:/Кира/IT/Projects/Piedpiper/img/header.png);
+}
+
+#image-2 {
+	height: 483px;
+    background-image: url(F:/Кира/IT/Projects/Piedpiper/img/network.png);
+}
+
+/* INTRODUCING PIEDPIPERCOIN */
+.ppc {
+	display: flex;
+	align-items: center;
+}
+
+#ppc-logo {
+	width: 100%
+}
+
+.btn {
+	height: 115px;
+	height: 115px;
+    	padding: 0;
+	margin: 0 48px 0 0;
+	border-radius: 57.5px;
+	border-style: none;
+    	box-shadow: 5px 5px 5px #007765;
+    	cursor: pointer;
+    	transition: all 0.3s ease; 
+    	outline: none;
+}
+
+.btn:hover {
+    	box-shadow: 5px 5px 1px gray;
+}
+
+.btn:active {
+    	box-shadow: none;
+	transform: translateY(5px) translateX(5px);
+}
+
+/* THE TEAM */
+.team-1-line, .team-2-line {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 57px;
+}
+
+.team-photo img {
+	display: block;
+	width: 168px;
+	margin: 0 auto;
+}
+
+/* FOOTER */
+.footer {
+	background-color: #333333;
+	padding: 38px 0 62px;
+}

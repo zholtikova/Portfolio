@@ -1,0 +1,446 @@
+/* GENERAL */
+html {
+	height: 100%;
+	font-family: Roboto, Sans-serif;
+}
+
+.container {
+	height: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 8px;
+}
+
+li {
+	display: block;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+    cursor: pointer;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #1D1D1D;
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	font-size: 22px;
+	margin: 0;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #1D1D1D;
+}
+
+p {
+	font-size: 14px;
+	color: #626262;
+	margin: 0;
+}
+
+hr {
+	margin: 0 auto;
+}
+
+/* MEDIA QUIRIES */
+@media screen and (min-width: 768px) {
+	.info-card {
+		margin: auto 0;
+		padding: 38px 0;
+	}
+	.info-card-item {
+		margin: 38px 29px 0 38px;
+	}
+	.menu-card-group {
+		margin: 32px auto;
+	}
+	.menu-card {
+		margin-bottom: 32px;
+	}
+	.menu-card-active {
+		height: 160px;
+		border: 1px solid rgba(117, 117, 117, 0.2);
+	}
+	.menu-card-text {
+		padding: 16px;
+	}
+	.menu-card-text h3 {
+		margin-bottom: 8px;
+	}
+	.menu-card-text .cost {
+		margin-top: 69px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.menu-card {
+		margin-bottom: 49px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.info {
+		margin-bottom: 56px;
+	}
+	.info-title {
+		height: 255px;
+	}
+	.info-card {
+		margin: 200px 8px 0;
+		padding: 24px 0;
+	}
+	.info-card-item {
+		flex-direction: column;
+		margin: 40px auto 24px;
+	}
+	.info-card-item div {
+		margin-top: 16px;
+	}
+	.menu-container h2 {
+		text-align: center;
+	}
+	.menu-container hr {
+		width: 50px;
+		margin-top: 12px;
+	}
+	.menu-card-group {
+		margin: 43px auto;
+	}
+	.menu-card {
+		margin-bottom: 16px;
+	}
+	.menu-card-active {
+		height: 102px;
+		border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+	}
+	.menu-card-text {
+		padding: 0 0 16px;
+	}
+	.menu-card-text h3 {
+		margin-bottom: 4px;
+	}
+	.menu-card-text .cost {
+		margin-top: 16px;
+	}
+}
+
+/* HEADER */
+header {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.logo img {
+	width: 119.23px;
+}
+
+.main-nav {
+	display: flex;
+	align-items: center;
+}
+
+.main-nav button {
+	box-sizing: border-box;
+	margin: 16px 0;
+	padding: 12px 20px;
+	background-color: white;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	font-size: 13px;
+	color: #1D1D1D;
+	cursor: pointer;
+}
+
+.main-nav button:hover {
+	background-color: #F4F4F4;
+	border: 1px solid #DDDDDD;
+}
+
+.main-nav button:active {
+	background-color: #E9E9E9;
+	border: 1px solid #CCCCCC;
+}
+
+.main-nav a {
+	margin-left: 27px;
+}
+
+.main-nav img {
+	width: 18.95px;
+}
+
+/* MAIN */
+.info {
+	height: 100%;
+}
+
+.info-title {
+	height: 364px;
+	width: 100%;
+	background-image: url(F:/Кира/IT/Projects/UberEats/img/Pushkin/photo.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.info-container {
+	display: flex;
+	height: 100%;
+}
+
+.info-card {
+	height: auto;
+	border-radius: 2px;
+	background-color: white;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.info-card-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wait {
+	width: 100px;
+	height: 100%;
+	padding: 8px 16px;
+	box-sizing: border-box;
+	border-radius: 16px;
+	background-color: #262626;
+	font-size: 13px;
+	color: white;
+}
+
+.info-menu {
+	border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.menu-nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+}
+
+.menu-nav ul {
+	padding: 0;
+}
+
+.menu-nav li {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.menu-nav a {
+	font-size: 16px;
+	color: #626262;
+}
+
+.menu-nav a:hover {
+	color: #327430;
+}
+
+.menu-nav a:active {
+	color: #2B672A;
+}
+
+/* MENU */
+.menu-container {
+	display: inline-block;
+	margin-top: 56px;
+}
+
+.menu-card-group {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+.menu-card-active {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.menu-card-active:active {
+	background-color: rgba(117, 117, 117, 0.2);
+}
+
+.menu-card img {
+	width: auto;
+	height: 100%;
+}
+
+.menu-card-text {
+	display: grid;
+	grid-template-rows: 1fr 10fr 1fr;
+}
+
+.menu-card-text h3, .menu-card-text p, .menu-card-text .cost{
+	margin: 0;
+}
+
+.menu-card-text h3 {
+	margin-bottom: 4px;
+}
+
+.menu-card-text .cost {
+	align-self: end;
+	font-size: 15px;
+	font-weight: 600;
+	color: #1D1D1D;
+}
+
+/* FOOTER */
+footer {
+	height: 100%;
+	box-sizing: border-box;
+	padding: 56px 0 28px;
+	background-color: #262626;
+}
+
+.white-logo {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.white-logo img {
+	width: 190.77px;
+}
+
+/* FOOTER-LINKS */
+.footer-links {
+	width: 100%;
+	margin: 32px 0 38px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.lang-social {
+	padding: 0;
+}
+
+.lang {
+	display: flex;
+	align-items: center;
+	height: auto;
+	padding-right: 8px;
+	box-sizing: border-box;
+	border-radius: 2px;
+	background-color: #3B3B3B;
+}
+
+.lang img {
+	width: 15.72px;
+	margin: auto 16px;
+}
+
+.lang select {
+	width: 100%;
+	margin: 12px 0;
+	appearance: none;
+	background: url(F:/Кира/IT/Projects/UberEats/img/signs/arrow-back.png) 98% 50% no-repeat #3B3B3B;
+	background-size: 14px auto;
+	outline: none;
+	border: none;
+	font-size: 13px;
+	color: white;
+
+}
+
+.social {
+	margin: 32px 0 30px;
+	padding: 0;
+}
+
+.social p {
+	font-size: 16px;
+	color: white;
+	margin: 0 0 16px;
+}
+
+.social img {
+	width: 24px;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0;
+}
+
+.links a {
+	margin: 10px 0 13px;
+}
+
+/* FOOTER-DOWNOLOAD */
+.footer-downoload {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 40px auto;
+}
+
+.footer-downoload a:first-of-type {
+	margin-right: 40px;
+}
+
+.footer-downoload a img {
+	height: 40px;
+}
+
+/* FOOTER OTHER */
+.footer-rights {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 28px auto 0;
+}
+
+.footer-rights p {
+	font-size: 11px;
+	color: white;
+	margin: 12px 0;
+	text-align: center;
+}
+
+/* BUTTON UP */
+.btn-up {
+	position: fixed;
+	bottom: 4px;
+	right: 17.5px;
+	padding: 27.5px 32.4px;
+	border-radius: 2px;
+	background-color: #59BD5A;
+}
+
+.btn-up img {
+	width: 15.27px;
+}

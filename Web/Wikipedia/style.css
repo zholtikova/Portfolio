@@ -1,0 +1,53 @@
+
+
+head, body {
+	width: 70%;
+	margin: 0 auto;
+}
+
+main {
+	margin: 0 0 48px;
+}
+
+h1, h3, caption {
+	font-family: sans-serif;
+	margin-top: 1.5em;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+table {
+	max-width: 70%;
+	width: ;
+	border-collapse: collapse;
+}
+
+thead th {
+	border-bottom: 2px solid black;
+	transition: .3s linear;
+	padding: 5px 5px;
+}
+
+tbody th {
+	border-right: 2px solid black;
+	padding: 5px 5px;
+}
+
+tfoot td {
+	border-top: 2px solid black;
+	padding: 5px 5px;
+}
+
+tr:hover td {
+	background: lightgrey;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+figure {
+	float: right;
+}

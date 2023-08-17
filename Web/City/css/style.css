@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1B1D1F;
+
+    height: 100%;
+    width: 100%;
+}
+
+.display {
+    width: 100%;
+    height: 768px;
+}
+ .container {
+    width: 1170px;
+    height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    display: grid;
+ }
+
+ .title {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 48px; /* 109.091% */
+}
+
+/* DISPLAY 1 */
+#home {
+    background: url("../img/background.jpg") center / cover no-repeat fixed;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 32px;
+}
+
+.card {
+    border-radius: 40px;
+    background: #FFF;
+
+    width: 573px;
+    height: fit-content;
+    padding: 60px;
+    margin-top: -64px;
+    box-sizing: border-box;
+}
+
+.card-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-top: 36px;
+}
+
+/* DISPLAY 2 */
+#gallery .container {
+    padding: 100px 0;
+}
+
+#gallery-title {
+    text-align: center;
+}
+
+.row {
+    margin: 80px -12px -24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row-item {
+    width: 25%;
+    margin-bottom: 24px;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.row-item-btn {
+    border: none;
+    background: none;
+    border-radius: 48px;
+    cursor: pointer;
+}
+
+.row-item-img {
+    border-radius: 48px;
+    width: 100%;
+}
